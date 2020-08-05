@@ -1,6 +1,9 @@
 # Hair Growth Simulator
 
 Animated simulator to show hair growth.
+
+![Screenshot](screenshot.png)
+
 In this project, a simulator was developed, which over time, a person's hair size changes after a user changes the number of months.
 
 I was used in this project: html, css, javascript
