@@ -1,9 +1,9 @@
 $(document).ready(function() {
     $("#radios").radiosToSlider();
 
-    item = "#" + $("input[name='options']:checked").val();
+	item = "#" + $("input[name='options']:checked").val();
 	size_hair = $(item).attr('size-hair');
-
+	
 	$(item + " img").addClass('active');
 	$("#display-size span").text(size_hair)
 
@@ -23,8 +23,6 @@ $(document).ready(function() {
     var dict = {
         "famele": {"1": 4,"2": 8,"3": 13},
         "male": {"1": 4,"2": 8,"3": 13}
-        // ,"4": 17,"5": 21,"6": 26},
-        // ,"4": 17,"5": 21,"6": 26}
     };
 
 
