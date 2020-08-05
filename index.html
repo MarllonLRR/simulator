@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Crescimento capilar</title>
+	<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+	<script type="text/javascript" src="assets/js/jquery-3.5.1.min.js" ></script>
+	<script type="text/javascript" src="assets/js/jquery.radios-to-slider.js" ></script>
+</head>
+<body>
+
+<script type="text/javascript" src="assets/js/script.js"></script>
+
+<!-- 
+
+Crescimento:
+1ºmês: até 5cm
+2ºmês: até 10cm
+3ºmês: até 15cm
+4ºmês: até 19cm
+5ºmês: até 23cm
+6ºmês: até 26cm 
+
+-->
+
+<div class="container wrapper-simulator theme-famele" id="wrapper-simulator" theme="theme-famele">
+  <div class="row">
+    
+    <div class="col-xs-12 col-md-6 pack">
+
+		<div class="carrousel">
+			<div id="items" class="items">		
+	           <!--  <div class="item" id="6-months" size-hair="26"><img src="assets/img/famele/Cabelo_n1.png" alt=""></div>
+	            <div class="item" id="5-months" size-hair="21"><img src="assets/img/famele/Cabelo_n2.png" alt=""></div>
+	            <div class="item" id="4-months" size-hair="17"><img src="assets/img/famele/Cabelo_n3.png" alt=""></div> -->
+	            <div class="item" id="3-months" size-hair="13"><img src="assets/img/famele/Cabelo-n3.png" alt=""></div>
+	            <div class="item" id="2-months" size-hair="8"><img src="assets/img/famele/Cabelo-n2.png" alt=""></div>
+	            <div class="item" id="1-months" size-hair="4" ><img src="assets/img/famele/Cabelo-n1.png" alt=""></div>
+			</div>
+        </div>
+        
+    </div>
+
+	<div class="col-xs-12 col-md-6 pack">
+    	<div class="controller">
+    		<div class="margin-title"><span class="title-simulator">Faça sua simulação</span></div>
+    		<div class="clear"></div>
+			<div id="radios" class="m-top">
+				<input id="option1" name="options" value="1-months" type="radio" checked>
+				<label for="option1">1° <br>Mês</label>
+
+				<input id="option2" name="options" value="2-months" type="radio">
+				<label for="option2">2° Mês</label>
+
+				<input id="option3" name="options" value="3-months" type="radio">
+				<label for="option3">3° Mês</label>
+
+				<!-- <input id="option4" name="options" value="4-months" type="radio">
+				<label for="option4">4° Mês</label>
+
+				<input id="option5" name="options" value="5-months" type="radio">
+				<label for="option5">5° Mês</label>
+
+				<input id="option6" name="options" value="6-months" type="radio">
+				<label for="option6">6° Mês</label> -->
+			</div>
+
+			<div class="align-center">
+				<div class="gender">
+					<input id="fameleOption" class="gender-opt" name="gender" value="famele" type="radio" checked>
+					<label for="fameleOption" class="gender-label">Feminino</label>
+					<input id="maleOption" class="gender-opt" name="gender" value="male" type="radio">
+					<label for="maleOption" class="gender-label">Masculino</label>				
+				</div>
+			</div>
+    	</div>
+
+		<div class="box-content">
+			<div class="t-content">Crescimento Capilar</div>
+	    	<div id="display-size" class="size-hair">até <span>10</span> cm</div>
+		</div>
+
+    </div>
+
+  </div>
+</div>
+
+</body>
+</html>
